@@ -1,3 +1,14 @@
+首先，看一下当前的代码结构。用户使用Flex布局，body设置为display:flex,子元素有.main-content, .spacer 和.sidebar。.main-content的宽度是100vw,.spacer的宽度是calc(90vw),而.sidebar的宽度是300px。这里的.spacer可能是用来将.sidebar推到右侧，但由于.main-content是100vw,可能覆盖了其他元素，导致需要水平滚动才能看到侧边栏。
+
+
+就是刚好需要水平滚动才能看到侧边栏。
+，充当侧边栏
+n.cn
+
+对于一个网站，我希望的是画面右侧，在打开网站时候刚好隐藏在画面的右侧范围内，但是其实可以左右滑动屏幕显示出来 给我这个html css 一体文件
+
+https://github.com/copilot/c/4a8ca16a-0b15-45fe-a443-12b7734693c3
+
 # siderbar
 侧边栏菜单html
 <!DOCTYPE html>
